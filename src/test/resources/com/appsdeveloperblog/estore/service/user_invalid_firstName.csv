@@ -1,0 +1,5 @@
+firstName,lastName,email,password,repeatPassword,exceptionMessage
+"ABCDEFGHIJKLMNOPQRSTUVWXYZABCDA",Doe,janedoe@example.com,"ABCDEFG1+a","ABCDEFG1+a","User's first name must contain between 1 and 30 alphabetic characters"
+"4BCDEFGH1JKLMN0PQRSTUVWXYZABCD",Doe,janedoe@example.com,"ABCDEFG1+a","ABCDEFG1+a","User's first name must contain between 1 and 30 alphabetic characters"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZABC ",Doe,janedoe@example.com,"ABCDEFG1+a","ABCDEFG1+a","User's first name must contain between 1 and 30 alphabetic characters"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZABC+",Doe,janedoe@example.com,"ABCDEFG1+a","ABCDEFG1+a","User's first name must contain between 1 and 30 alphabetic characters"

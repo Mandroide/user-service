@@ -1,0 +1,16 @@
+firstName,lastName,email,password,repeatPassword,exceptionMessage
+,lastName,email,password,repeatPassword,User's first name is empty
+"",lastName,email,password,repeatPassword,User's first name is empty
+" ",lastName,email,password,repeatPassword,User's first name is empty
+firstName,,email,password,repeatPassword,User's last name is empty
+firstName,"",email,password,repeatPassword,User's last name is empty
+firstName," ",email,password,repeatPassword,User's last name is empty
+firstName,lastName,,password,repeatPassword,User's email is empty
+firstName,lastName,"",password,repeatPassword,User's email is empty
+firstName,lastName," ",password,repeatPassword,User's email is empty
+firstName,lastName,email,,repeatPassword,User's password is empty
+firstName,lastName,email,"",repeatPassword,User's password is empty
+firstName,lastName,email," ",repeatPassword,User's password is empty
+firstName,lastName,email,password,,User's repeat password is empty
+firstName,lastName,email,password,"",User's repeat password is empty
+firstName,lastName,email,password," ",User's repeat password is empty
