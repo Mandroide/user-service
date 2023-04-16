@@ -1,5 +1,6 @@
 package com.appsdeveloperblog.estore.service;
 
+import com.appsdeveloperblog.estore.model.User;
 import org.junit.platform.commons.util.StringUtils;
 import org.passay.*;
 

@@ -1,5 +1,6 @@
 package com.appsdeveloperblog.estore.service;
 
+import com.appsdeveloperblog.estore.model.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
